@@ -52,12 +52,13 @@
   "elements": [
     {
       "data": {
-        "id": "90c7eb03-11df-4cc0-aee3-ce8f4be69906",
-        "background-image": "Books/The_Cell.jpeg"
+        "id": "e78b47f4-e930-483a-be1d-4956b309e128",
+        "author": "McKay",
+        "book": "<a href=\"https://www.amazon.com/gp/product/0521642981?pf_rd_p=c2945051-950f-485c-b4df-15aac5223b10&pf_rd_r=338SV2FHK8NKBKZF7T5B\">Information Theory</a>"
       },
       "position": {
-        "x": 560.9483576812133,
-        "y": 126.74644086721877
+        "x": 391.61430211677776,
+        "y": 143.31851052149736
       }
     }
   ],
@@ -304,15 +305,16 @@
     },
     {
       "style": {
-        "line-color": "#0169D9",
-        "source-arrow-color": "#0169D9",
+        "shape": "rectangle",
+        "background-color": "red",
+        "border-color": "red",
+        "line-color": "red",
+        "source-arrow-color": "red",
         "mid-source-arrow-color": "#0169D9",
-        "target-arrow-color": "#0169D9",
-        "mid-target-arrow-color": "#0169D9",
-        "background-fit": "cover",
-        "background-image": "Books/The_Cell.jpeg"
+        "target-arrow-color": "red",
+        "mid-target-arrow-color": "#0169D9"
       },
-      "selector": "#90c7eb03-11df-4cc0-aee3-ce8f4be69906"
+      "selector": "#e78b47f4-e930-483a-be1d-4956b309e128"
     }
   ],
   "layout": {
@@ -342,6 +344,6 @@ cy.on('select unselect', 'node, edge', function(event){
     }
     toFill.innerHTML = toAdd
 });
-document.getElementById('title').innerHTML = 'asdf';
-document.getElementById('description').innerHTML = 'asdf';
+document.getElementById('title').innerHTML = 'Book Test 2';
+document.getElementById('description').innerHTML = 'here we test if link works for book';
  </script>
